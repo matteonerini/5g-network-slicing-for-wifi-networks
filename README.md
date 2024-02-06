@@ -9,7 +9,7 @@ An extended version of the paper is also available [here](https://arxiv.org/abs/
 
 ## Introduction
 
-This project aims to provide a framework to develop and evaluate network slicing techniques for Wi-Fi networks. We provide a customizable Wi-Fi indoor scenario, realized with the *ns-3* network simulator, in which several mobile Stations (STAs) are connected to an Access Point (AP) placed in the centre of a room. In general, the STAs have distinct performance requirements, and are grouped in different networks slices (e.g. eMBB, mMTC and URLLC).
+This project aims to provide a framework to develop and evaluate network slicing techniques for Wi-Fi networks. We provide a customizable Wi-Fi indoor scenario, realized with the *ns-3* network simulator (version ns-3.30), in which several mobile Stations (STAs) are connected to an Access Point (AP) placed in the centre of a room. In general, the STAs have distinct performance requirements, and are grouped in different networks slices (e.g. eMBB, mMTC and URLLC).
 
 On top of this scenario, we facilitate the implementation and the testing of radio resources allocation algorithms to realize network slicing in the radio access segment of Wi-Fi networks. In particular, three steps need to be followed:
 * Configure the environment parameters, such as the number of Wi-Fi STAs, required throughput in each slice and the dimensions of the room.
